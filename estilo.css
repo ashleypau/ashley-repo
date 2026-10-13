@@ -1,0 +1,187 @@
+/* Fondo de toda la página */
+
+body {
+    background-image: url("fondo flores.jpg");
+
+    /* Este mandato coloca una imagen como fondo de la página */
+
+    background-size: cover;
+
+    /* Este comando cubre la página */
+
+    background-position: center;
+
+    /* Sirve para que el fondo quede centrado */
+
+    background-attachment: fixed;
+
+    /* Mantiene el fondo fijo */
+
+    font-family: Arial, sans-serif;
+
+    /* Cambia el tipo de letra */
+
+    color: #333;
+
+    /* Cambia el color del texto */
+}
+
+
+/* Título principal */
+
+h1 {
+    color: #d633b3;
+}
+
+
+/* Títulos secundarios */
+
+h2 {
+    color: #5f8d4e;
+}
+
+
+/* Párrafos */
+
+p {
+    font-size: 17px;
+
+    /* Cambia el tamaño de la letra */
+
+    line-height: 1.6;
+
+    /* Controla el espacio entre las líneas */
+}
+
+
+/* MENÚ DE NAVEGACIÓN */
+
+nav {
+    background-color: #d63384;
+
+    padding: 15px;
+
+    margin: 20px auto;
+
+    width: 80%;
+
+    border-radius: 10px;
+}
+
+
+/* Enlaces del menú */
+
+nav a {
+    color: white;
+
+    text-decoration: none;
+
+    margin: 0 15px;
+
+    font-size: 16px;
+}
+
+
+/* Efecto cuando pasas el mouse por el menú */
+
+nav a:hover {
+    color: #ffd6f0;
+}
+
+
+/* GALERÍA DE IMÁGENES */
+
+.galeria {
+    display: flex;
+
+    /* Coloca las imágenes una al lado de la otra */
+
+    justify-content: center;
+
+    /* Centra las imágenes */
+
+    gap: 15px;
+
+    /* Espacio entre cada imagen */
+
+    margin: 20px auto;
+
+    width: 90%;
+}
+
+
+/* IMÁGENES DE LA GALERÍA */
+
+.galeria img {
+    width: 30%;
+
+    height: 250px;
+
+    object-fit: cover;
+
+    /* Hace que las imágenes mantengan una buena proporción */
+
+    border-radius: 10px;
+
+    /* Redondea las esquinas */
+}
+
+
+/* Botón de YouTube */
+
+body > a {
+    display: inline-block;
+
+    background-color: #d63384;
+
+    /* Pone el fondo rosado */
+
+    color: white;
+
+    /* Pone las letras blancas */
+
+    padding: 12px 25px;
+
+    /* Pone espacio dentro */
+
+    text-decoration: none;
+
+    /* Quita la línea del enlace */
+
+    border-radius: 8px;
+
+    /* Redondea las esquinas */
+
+    font-size: 16px;
+
+    /* Cambia el tamaño de la letra */
+}
+
+
+/* Efecto cuando pasas el mouse */
+
+body > a:hover {
+    background-color: #a82465;
+}
+
+
+/* PIE DE PÁGINA */
+
+footer {
+    background-color: #5f8d4e;
+
+    color: white;
+
+    padding: 20px;
+
+    margin-top: 40px;
+}
+
+
+/* Texto del pie de página */
+
+footer p {
+    margin: 5px;
+
+    font-size: 14px;
+}
