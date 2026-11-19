@@ -184,4 +184,8 @@ footer p {
     margin: 5px;
 
     font-size: 14px;
+} 
+img:hover{ 
+
+    transform: scale(1.1);
 }
